@@ -35,5 +35,25 @@ public class Example3 {
         karel.move();
         karel.move();
         new Wall(kitchener, 2, 2, Direction.SOUTH);
+        new Wall(kitchener, 2, 2, Direction.EAST);
+        karel.turnLeft();
+        karel.move();
+        new Wall(kitchener, 1, 2, Direction.EAST);
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        new Wall(kitchener, 0, 3, Direction.SOUTH);
+        new Thing(kitchener, 0, 3);
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        new Wall(kitchener, 1, 3, Direction.EAST);
+        karel.move();
+        new Wall(kitchener, 2, 3, Direction.EAST);
+        
     }
 }
