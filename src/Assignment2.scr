@@ -1,0 +1,16 @@
+Assignmetn 2: Conditions 
+
+1. a) this.getAvemue(true)>0 
+   b) this.getAvenue(true) <= 5
+   c) this.getStreet(false) != 1
+   d) !(this.getStreet(true) == 1)
+   e) this.frontIsClear(false)
+   f) !this.frontIsClear(true)
+   g) this.frontIsClear(false) == false
+
+2) Yes they do behave the same. The only difference is that they are both 
+written backwars. The fucntions of each are the same. An example is that: in 
+statement one karel is told to turn right, while in statement two its told to 
+turn left if it can not pickup anything. 
+
+
